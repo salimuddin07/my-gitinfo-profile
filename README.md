@@ -125,6 +125,27 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
   npm run dev
   ```
 
+### Deploying to Vercel
+
+1. Commit and push your changes to GitHub:
+
+```powershell
+git add .
+git commit -m "Prepare for Vercel deploy: set base '/', add vercel.json"
+git push origin main
+```
+
+2. Go to https://vercel.com, sign in and click "New Project" → Import Git Repository → choose `salimuddin07/my-gitinfo-profile`.
+
+3. For Build Settings use:
+- Framework Preset: Other
+- Build Command: `npm run build`
+- Output Directory: `dist`
+
+4. Click Deploy. Vercel will run `npm install` and `npm run build` and publish the `dist` folder.
+
+Note: `vercel.json` is included to ensure proper static-build behavior and SPA routing.
+
 - Finally, visit `http://localhost:5173/gitprofile/` from your browser.
 
 > Alternatively, you can set up and run the project using Docker with **[Vail](https://github.com/arifszn/vail)**, a powerful tool for local development of JavaScript/TypeScript Apps.

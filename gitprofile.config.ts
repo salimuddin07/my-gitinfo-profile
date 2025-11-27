@@ -5,7 +5,8 @@ const CONFIG = {
     username: 'salimuddin07', // Your GitHub org/user name. (This is the only required config)
   },
  
-  base: '/gitprofile/',
+  // For Vercel or root deployments set base to '/'
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -48,9 +49,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of salimuddin07',
+    title: 'salimuddin info',
     description:
-      'Personal portfolio of salimuddin07 — projects, skills and contact.',
+      'Personal salimuddin07 — projects, skills and contact.',
     imageURL: '',
   },
   social: {
