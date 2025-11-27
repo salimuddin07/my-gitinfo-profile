@@ -228,7 +228,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by <a class="text-primary" href="https://github.com/salimuddin07" target="_blank" rel="noreferrer">salimuddin07</a> • Built with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a>`,
+  footer: `Made by <a class="text-primary" href="https://github.com/salimuddin07" target="_blank" rel="noreferrer">salimuddin07</a>`,
 
   enablePWA: true,
 };
