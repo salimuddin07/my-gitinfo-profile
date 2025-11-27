@@ -47,14 +47,19 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of salimuddin07', description: '', imageURL: '' },
+  seo: {
+    title: 'Portfolio of salimuddin07',
+    description:
+      'Personal portfolio of salimuddin07 — projects, skills and contact.',
+    imageURL: '',
+  },
   social: {
-    linkedin: '',
-    x: '',
+    linkedin: 'salimuddin07',
+    x: 'salimuddin007',
     mastodon: '',
     researchGate: '',
-    facebook: '',
-    instagram: '',
+    facebook: 'salimuddin007',
+    instagram: 'salimuddin07_',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -66,9 +71,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://github.com/salimuddin07',
+    website: 'https://www.salimuddin.tech',
     phone: '',
-    email: '',
+    email: 'contact@salimuddin.tech',
   },
   resume: {
     fileUrl:
@@ -215,11 +220,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made by <a class="text-primary" href="https://github.com/salimuddin07" target="_blank" rel="noreferrer">salimuddin07</a> • Built with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a>`,
 
   enablePWA: true,
 };
