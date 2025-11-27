@@ -16,12 +16,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['salimuddin07/my-project1', 'salimuddin07/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['salimuddin07/my-gitinfo-profile'], // List of repository names to display. example: ['salimuddin07/my-project1']
       },
     },
     external: {
@@ -69,8 +69,8 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
+    discord: 'salimuddin07',
+    telegram: 'salimuddin07',
     website: 'https://www.salimuddin.tech',
     phone: '',
     email: 'contact@salimuddin.tech',
@@ -80,20 +80,27 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'HTML',
+    'CSS',
     'JavaScript',
+    'TypeScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'PHP',
+    'Apify',
+    'Crawlee',
+    'Cheerio',
+    'Puppeteer',
+    'Axios',
+    'Playwright',
+    'BeautifulSoup',
+    'phpMyAdmin',
     'PostgreSQL',
+    'AWS',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'GitHub',
+    'n8n',
+    'OpenAI',
   ],
   experiences: [
     {
