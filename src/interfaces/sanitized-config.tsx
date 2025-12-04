@@ -40,6 +40,10 @@ export interface SanitizedSEO {
   title?: string;
   description?: string;
   imageURL?: string;
+  keywords?: string;
+  author?: string;
+  robots?: string;
+  canonical?: string;
 }
 
 export interface SanitizedSocial {
@@ -116,6 +120,10 @@ export interface SanitizedBlog {
   limit: number;
 }
 
+export interface SanitizedReadme {
+  display: boolean;
+}
+
 export interface SanitizedThemeConfig {
   defaultTheme: string;
   disableSwitch: boolean;
@@ -138,6 +146,7 @@ export interface SanitizedConfig {
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;
+  readme: SanitizedReadme;
   themeConfig: SanitizedThemeConfig;
   footer?: string;
   enablePWA: boolean;

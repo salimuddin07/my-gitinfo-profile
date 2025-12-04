@@ -104,6 +104,26 @@ interface SEO {
    * Meta image
    */
   imageURL?: string;
+
+  /**
+   * Meta keywords
+   */
+  keywords?: string;
+
+  /**
+   * Author
+   */
+  author?: string;
+
+  /**
+   * Robots directive
+   */
+  robots?: string;
+
+  /**
+   * Canonical URL
+   */
+  canonical?: string;
 }
 
 interface Social {
@@ -284,6 +304,13 @@ interface Blog {
   limit?: number;
 }
 
+interface Readme {
+  /**
+   * Display GitHub Profile README?
+   */
+  display?: boolean;
+}
+
 interface ThemeConfig {
   /**
    * Default theme
@@ -381,6 +408,11 @@ interface Config {
    * Blog config
    */
   blog?: Blog;
+
+  /**
+   * README config
+   */
+  readme?: Readme;
 
   /**
    * Theme config

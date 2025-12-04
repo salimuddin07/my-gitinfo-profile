@@ -49,10 +49,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'salimuddin info',
+    title: 'Salimuddin | AI Automation & Web Scraping Specialist',
     description:
-      'Personal salimuddin07 — projects, skills and contact.',
-    imageURL: '',
+      'Expert Web Developer specializing in AI automation, web scraping, and data extraction. I build scalable workflows, scraping scripts, and dashboards that turn raw data into actionable insights.',
+    imageURL: 'https://www.salimuddin.tech/og-image.jpg',
+    keywords: 'web scraping, automation, AI, data extraction, web developer, python, javascript, apify, crawlee, puppeteer, playwright',
+    author: 'Salimuddin',
+    robots: 'index, follow',
+    canonical: 'https://www.salimuddin.tech',
   },
   social: {
     linkedin: 'salimuddin07',
@@ -77,8 +81,7 @@ const CONFIG = {
     email: 'contact@salimuddin.tech',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'HTML',
@@ -166,6 +169,10 @@ const CONFIG = {
     source: 'dev', // medium | dev
     username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
+  },
+  // Display GitHub Profile README (Optional)
+  readme: {
+    display: true, // Display GitHub Profile README?
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX

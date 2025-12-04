@@ -60,6 +60,10 @@ export const getSanitizedConfig = (
         title: config?.seo?.title,
         description: config?.seo?.description,
         imageURL: config?.seo?.imageURL,
+        keywords: config?.seo?.keywords,
+        author: config?.seo?.author,
+        robots: config?.seo?.robots,
+        canonical: config?.seo?.canonical,
       },
       social: {
         linkedin: config?.social?.linkedin,
@@ -117,6 +121,9 @@ export const getSanitizedConfig = (
         source: config?.blog?.source || 'dev',
         limit: config?.blog?.limit || 5,
         display: !!config?.blog?.username && !!config?.blog?.source,
+      },
+      readme: {
+        display: config?.readme?.display ?? true,
       },
       themeConfig: {
         defaultTheme: config?.themeConfig?.defaultTheme || DEFAULT_THEMES[0],

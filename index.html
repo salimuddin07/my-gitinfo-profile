@@ -2,30 +2,144 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%- metaTitle %></title>
 
+    <!-- SEO Meta Tags -->
     <meta property="title" content="<%- metaTitle %>" />
     <meta name="description" content="<%- metaDescription %>" />
+    <meta name="keywords" content="web scraping, automation, AI, data extraction, web developer, python, javascript, apify, crawlee, puppeteer, playwright, salimuddin" />
+    <meta name="author" content="Salimuddin" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="en-US" />
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="India" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta name="revisit-after" content="7 days" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Salimuddin" />
+    <meta name="application-name" content="Salimuddin Portfolio" />
+    <meta name="msapplication-tooltip" content="AI Automation & Web Scraping Specialist" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta name="msapplication-window" content="width=1024;height=768" />
+    <meta name="msapplication-navbutton-color" content="#74478b" />
+    <link rel="canonical" href="https://www.salimuddin.tech" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//api.github.com" />
 
-    <meta itemprop="name" content="<%- metaTitle %>" />
-    <meta itemprop="description" content="<%- metaDescription %>" />
-    <meta itemprop="image" content="<%- metaImageURL %>" />
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Salimuddin",
+      "jobTitle": "AI Automation & Web Scraping Specialist",
+      "description": "Expert Web Developer specializing in AI automation, web scraping, and data extraction",
+      "url": "https://www.salimuddin.tech",
+      "email": "contact@salimuddin.tech",
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Software Development"
+      },
+      "sameAs": [
+        "https://github.com/salimuddin07",
+        "https://linkedin.com/in/salimuddin07",
+        "https://x.com/salimuddin007",
+        "https://instagram.com/salimuddin07_",
+        "https://facebook.com/salimuddin007",
+        "https://t.me/salimuddin07"
+      ],
+      "knowsAbout": ["Web Scraping", "AI Automation", "Data Extraction", "Python", "JavaScript", "Web Development", "API Integration", "Data Analytics"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
 
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="<%- metaTitle %>" />
     <meta property="og:description" content="<%- metaDescription %>" />
     <meta property="og:image" content="<%- metaImageURL %>" />
     <meta property="og:image:secure_url" content="<%- metaImageURL %>" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Salimuddin - AI Automation & Web Scraping Specialist" />
+    <meta property="og:url" content="https://www.salimuddin.tech" />
+    <meta property="og:site_name" content="Salimuddin Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:updated_time" content="2025-12-04T00:00:00Z" />
 
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@salimuddin007" />
+    <meta name="twitter:creator" content="@salimuddin007" />
     <meta name="twitter:title" content="<%- metaTitle %>" />
     <meta name="twitter:description" content="<%- metaDescription %>" />
     <meta name="twitter:image" content="<%- metaImageURL %>" />
+    <meta name="twitter:image:alt" content="Salimuddin - AI Automation & Web Scraping Specialist" />
+    <meta name="twitter:domain" content="salimuddin.tech" />
+    <meta name="twitter:url" content="https://www.salimuddin.tech" />
+
+    <!-- Additional Technical Meta Tags -->
+    <meta name="theme-color" content="#74478b" />
+    <meta name="msapplication-TileColor" content="#74478b" />
+    <meta name="msapplication-TileImage" content="/apple-touch-icon.png" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <meta name="generator" content="Vite + React + TypeScript" />
+    
+    <!-- Schema.org WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Salimuddin Portfolio",
+      "url": "https://www.salimuddin.tech",
+      "description": "Professional portfolio showcasing AI automation and web scraping expertise",
+      "author": {
+        "@type": "Person",
+        "name": "Salimuddin"
+      },
+      "inLanguage": "en-US"
+    }
+    </script>
+
+    <!-- Schema.org ProfessionalService -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Salimuddin Web Scraping Services",
+      "description": "Professional web scraping, automation, and data extraction services",
+      "url": "https://www.salimuddin.tech",
+      "serviceType": "Web Development & Automation",
+      "provider": {
+        "@type": "Person",
+        "name": "Salimuddin"
+      },
+      "areaServed": "Worldwide",
+      "availableLanguage": ["en", "hi"]
+    }
+    </script>
+
+    <meta itemprop="name" content="<%- metaTitle %>" />
+    <meta itemprop="description" content="<%- metaDescription %>" />
+    <meta itemprop="image" content="<%- metaImageURL %>" />
     <%- googleAnalyticsScript %>
   </head>
   <body>
