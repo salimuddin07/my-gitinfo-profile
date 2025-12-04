@@ -26,24 +26,24 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Featured Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'AIO Converter - Universal Media Processing Suite',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A comprehensive native Windows application for universal media conversion and processing. Features advanced video processing (split, resize, rotate, crop, optimize, effects), image manipulation (GIF creation, WebP, APNG, AVIF, JXL conversion), and document processing (PDF ↔ Markdown, Image to PDF). Built with modern desktop technologies providing professional-grade performance with batch processing capabilities and real-time preview.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&auto=format',
+          link: 'https://github.com/salimuddin07/AIO-converter',
         },
         {
-          title: 'Project Name',
+          title: 'ApexChat - Advanced AI Chatbot Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A sophisticated ChatGPT-like conversational AI platform with multi-API integration capabilities. Features responsive web interface, real-time chat functionality, conversation history management, customizable AI model selection, and seamless connection to various AI APIs including OpenAI GPT, Claude, and other language models. Demonstrates advanced API integration, real-time communication, and scalable architecture for AI-powered applications.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&auto=format',
+          link: 'https://github.com/salimuddin07/ApexChat',
         },
       ],
     },
@@ -108,18 +108,11 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'PI Matrix',
+      position: 'AI Automation Developer',
+      from: 'February 2025',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://pimatrix.com',
     },
   ],
   certifications: [
@@ -146,22 +139,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'ApexChat - Advanced AI Chatbot Platform',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Open Source Project',
+      authors: 'Salimuddin',
+      link: 'https://github.com/salimuddin07/ApexChat',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Developed a sophisticated ChatGPT-like conversational AI platform with multi-API integration capabilities. ApexChat features a responsive web interface that seamlessly connects to various AI APIs including OpenAI GPT, Claude, and other language models. The platform provides real-time chat functionality, conversation history management, customizable AI model selection, and an intuitive user experience comparable to ChatGPT. Built with modern web technologies, it demonstrates advanced API integration, real-time communication, and scalable architecture for AI-powered applications.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'AIO Converter - Universal Media Processing Suite',
+      conferenceName: '',
+      journalName: 'Desktop Application',
+      authors: 'Salimuddin',
+      link: 'https://github.com/salimuddin07/AIO-converter',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Engineered a comprehensive native Windows application for universal media conversion and processing. AIO Converter is an all-in-one solution featuring advanced video processing (split, resize, rotate, crop, optimize, effects), image manipulation (GIF creation, format conversion including WebP, APNG, AVIF, JXL), and document processing (PDF to Markdown, Markdown to PDF, Image to PDF). The application provides a professional-grade desktop experience with batch processing capabilities, real-time preview, and optimized performance for handling large media files. This tool demonstrates expertise in desktop application development, multimedia processing, and user interface design.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

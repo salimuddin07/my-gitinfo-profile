@@ -17,7 +17,7 @@ const ReadmeCard: React.FC<ReadmeCardProps> = ({
 
   if (loading) {
     return (
-      <div className="card shadow-lg card-sm bg-base-100">
+      <div className="card shadow-lg compact bg-base-100">
         <div className="card-body">
           <div className="mx-3">
             <div className="mt-3">
@@ -30,17 +30,15 @@ const ReadmeCard: React.FC<ReadmeCardProps> = ({
   }
 
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-lg compact bg-base-100">
       <div className="card-body">
         <div className="mx-3">
           <div className="mt-4">
             <img 
               src="https://i.pinimg.com/originals/a5/d1/f6/a5d1f61e89bdce061817723044f8a757.gif" 
               alt="Cyberpunk Animation"
+              className="w-full h-auto rounded-lg"
               style={{
-                width: '100%',
-                height: 'auto',
-                borderRadius: '8px',
                 display: 'block'
               }}
             />
