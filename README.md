@@ -213,7 +213,7 @@ const CONFIG = {
   seo: { title: 'Portfolio of salimuddin07', description: '', imageURL: '' },
   social: {
     linkedin: 'salimuddin07',
-    x: 'salimuddin007',
+    x: 'salimuddin07_',
     mastodon: '',
     researchGate: '',
     facebook: 'salimuddin007',
